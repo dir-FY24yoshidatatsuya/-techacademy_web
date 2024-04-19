@@ -1,0 +1,30 @@
+header {
+	height:50px;
+	background-color:#fdd;
+}
+#main {
+	float:left;
+	width:60%;
+    height:90px;
+	background-color:#dfd;
+}
+aside {
+	float:right;
+	width:30%;
+	height:90px;
+	background-color:#fdf;
+}
+footer {
+	clear:both;
+	height:90px;
+	background-color:#ddf;
+}
+.clearfix::after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+
+
+

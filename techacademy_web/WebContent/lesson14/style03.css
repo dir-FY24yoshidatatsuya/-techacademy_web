@@ -1,9 +1,9 @@
-nav ul {
+nav ol {
     position: fixed;
     top: 10px;
     left: 10px;
 }
-nav ul li {
+ol li {
         display: inline-block;
         width: 100px;
         background-color: #ddd;
@@ -11,6 +11,6 @@ nav ul li {
         padding: 5px;
 }
 long-content {
-    height: 10px;
+    height: 400px;
     background-color: skyblue;
 }
